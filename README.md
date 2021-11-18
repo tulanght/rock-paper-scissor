@@ -1,2 +1,2 @@
-# rock-paper-scrissor
+# rock-paper-scissor
 Fundamentals javascript assignment
