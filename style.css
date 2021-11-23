@@ -1,3 +1,58 @@
 body {
   font-size: 18px;
+  background-color: rgb(105, 188, 236);
+  color: rgb(1, 43, 92);
+  display: flex;
+  font-display: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.weapons-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  min-height: 200px;
+}
+button {
+  width: 200px;
+  padding: 20px;
+}
+
+.round-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 150px;
+}
+.score-table {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+.player-score-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  min-height: 150px;
+  background-color: #fff;
+}
+.score {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+.annoucement {
+  padding: 40px 0;
+  text-align: center;
+  max-width: 1000px;
 }

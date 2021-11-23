@@ -8,18 +8,29 @@
     <title>PROJECT: ROCK PAPER SCISSORS</title>
 </head>
 <body>
-<div class="header">
-    <h1>PROJECT: ROCK PAPER SCISSORS</h1>
-</div>
-<div class="score-table">
-    <div class="player-score-wrapper player1">
-        <div class="score yourscore">0</div>
-        <div class="playername player1-name">You</div>
+<div class="content-wrapper">
+    <div class="header">
+        <h1>PROJECT: ROCK PAPER SCISSORS</h1>
     </div>
-    <div class="player-score-wrapper player2">
-        <div class="score yourscore">0</div>
-        <div class="playername player2-name">Computer</div>
+    <div class="weapons-container">
+        <button id="rock-btn">Rock</button>
+        <button id="paper-btn">Paper</button>
+        <button id="scissor-btn">Scissors</button>
     </div>
+    <div class="round-result"><ol id="#round-result-list">
+
+    </ol></div>
+    <div class="score-table">
+        <div class="player-score-wrapper player1">
+            <div class="score yourscore">0</div>
+            <div class="playername player1-name">You</div>
+        </div>
+        <div class="player-score-wrapper player2">
+            <div class="score computerscore">0</div>
+            <div class="playername player2-name">Computer</div>
+        </div>
+    </div>
+    <div class="annoucement"></div>
 </div>
 <script src="./script.js"></script>
 </body>
